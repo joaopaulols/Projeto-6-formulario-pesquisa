@@ -9,15 +9,16 @@
 	</head>
 
 	<body>
-		<img id="banner"src="fundo.png">
 		<h1>Formulário de Pesquisa freeCodeCamp</h1>
 	</body>
 
 	<main>
+		<div class="container">
 		<form>
-			
+			<img id="banner"src="fundo.png">
 			<label for="nome">Nome</label>
 			<input type="text" id="nome" class="padrao" required>
+			</div>
 
 			<label for="email">Email</label>
 			<input type="email" id="email" class="padrao" required placeholder="seuemail@dominio.com">
@@ -30,6 +31,7 @@
 						<option>Prefiro não dizer</option>
 						<option>Outros</option>
 					</select>
+
 
 			<legend>Você recomendaria o freeCodeCamp a um amigo?</legend>
 
@@ -66,3 +68,5 @@
 				<label for="mensagem">Algum comentário ou sugestão?</label>
 				<textarea cols="50" rows="10" id="mensagem" required></textarea>
 		</form>
+
+	</main>
