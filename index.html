@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+
 	<head>
 		<meta charset="UTF-8">
 		<title>Formulário de pesquisa</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
-
 	</head>
-
-	<body>
-		<h1>Formulário de Pesquisa freeCodeCamp</h1>
-	</body>
 
 	<main>
 		<div class="container">
-		<form>
-			<img id="banner"src="fundo.png">
-			<label for="nome">Nome</label>
-			<input type="text" id="nome" class="padrao" required>
-			</div>
+			<body>
+				<h1>Formulário de Pesquisa freeCodeCamp</h1>
+			</body>
 
-			<label for="email">Email</label>
-			<input type="email" id="email" class="padrao" required placeholder="seuemail@dominio.com">
+			
+				<form>
+					<img id="banner"src="fundo.png">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" class="padrao" required>
+					<label for="email">Email</label>
+					<input type="email" id="email" class="padrao" required placeholder="seuemail@dominio.com">
 
-			<legend>Qual opção melhor descreve sua função atual?</legend>
-					<select>
-						<option>Estudante</option>
-						<option>Trabalho em tempo integral</option>
-						<option>Aprendiz em tempo integral</option>
-						<option>Prefiro não dizer</option>
-						<option>Outros</option>
-					</select>
+					<legend>Qual opção melhor descreve sua função atual?</legend>
+							<select>
+								<option>Estudante</option>
+								<option>Trabalho em tempo integral</option>
+								<option>Aprendiz em tempo integral</option>
+								<option>Prefiro não dizer</option>
+								<option>Outros</option>
+							</select>
 
+					<legend>Você recomendaria o freeCodeCamp a um amigo?</legend>
 
-			<legend>Você recomendaria o freeCodeCamp a um amigo?</legend>
+						<label for="radio-definitivamente"><input type="radio" name="recomendar" id="radio-definitivamente" checked>Definitivamente</label>
+							
+						<label for="radio-pode-ser"><input type="radio" name="recomendar" id="radio-pode-ser">Pode ser</label>
 
-					<label for="radio-definitivamente"><input type="radio" name="recomendar" id="radio-definitivamente" checked>Definitivamente</label>
-					
-					<label for="radio-pode-ser"><input type="radio" name="recomendar" id="radio-pode-ser">Pode ser</label>
+						<label for="radio-talvez"><input type="radio" name="recomendar" id="radio-talvez">Não tenho certeza</label>
 
-					<label for="radio-talvez"><input type="radio" name="recomendar" id="radio-talvez">Não tenho certeza</label>
+					<legend>Qual é o seu recurso favorito do freeCodeCamp?</legend>
+						<select>
+							<option>Desafios</option>
+							<option>Projetos</option>
+							<option>Comunidade</option>
+							<option>Código aberto</option>
+						</select>
 
-			<legend>Qual é o seu recurso favorito do freeCodeCamp?</legend>
-				<select>
-					<option>Desafios</option>
-					<option>Projetos</option>
-					<option>Comunidade</option>
-					<option>Código aberto</option>
-				</select>
+					<legend>O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</legend>
 
-			<legend>O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</legend>
+						<label for="radio-front-end"><input type="radio" id="radio-front-end">Projetos front-end</label>
+						<label for="radio-projetos"><input type="radio" id="radio-prpojetos">Projetos</label>
+						<label for="radio-back-end"><input type="radio" id="radio-back-end">Projetos de back-end</label>
+						<label for="radio-visualizacao"><input type="radio" id="radio-visualizacao">Visualização de dados</label>
+						<label for="radio-desafios"><input type="radio" id="radio-desafios">Desafios</label>
+						</label>
+						<label for="radio-comunidade"><input type="radio" id="radio-comunidade">Comunidade de código aberto</label>
+						<label for="radio-sala"><input type="radio" id="radio-sala">Salas de ajuda do Gittero</label>
+						<label for="radio-video"><input type="radio" id="radio-video">Vídeo</label>
+						<label for="radio-encontros"><input type="radio" id="radio-encontros">Encontros da Cidade</label>
+						<label for="radio-wiki"><input type="radio" id="radio-wiki">Wiki</label>
+						<label for="radio-forum"><input type="radio" id="radio-forum">Fórum</label>
+						<label for="radio-cursos"><input type="radio" id="radio-cursos">Cursos adicionais</label>
 
-				<label for="radio-front-end"><input type="radio" id="radio-front-end">Projetos front-end</label>
-				<label for="radio-projetos"><input type="radio" id="radio-prpojetos">Projetos</label>
-				<label for="radio-back-end"><input type="radio" id="radio-back-end">Projetos de back-end</label>
-				<label for="radio-visualizacao"><input type="radio" id="radio-visualizacao">Visualização de dados</label>
-				<label for="radio-desafios"><input type="radio" id="radio-desafios">Desafios</label>
-				</label>
-				<label for="radio-comunidade"><input type="radio" id="radio-comunidade">Comunidade de código aberto</label>
-				<label for="radio-sala"><input type="radio" id="radio-sala">Salas de ajuda do Gittero</label>
-				<label for="radio-video"><input type="radio" id="radio-video">Vídeo</label>
-				<label for="radio-encontros"><input type="radio" id="radio-encontros">Encontros da Cidade</label>
-				<label for="radio-wiki"><input type="radio" id="radio-wiki">Wiki</label>
-				<label for="radio-forum"><input type="radio" id="radio-forum">Fórum</label>
-				<label for="radio-cursos"><input type="radio" id="radio-cursos">Cursos adicionais</label>
-
-				<label for="mensagem">Algum comentário ou sugestão?</label>
-				<textarea cols="50" rows="10" id="mensagem" required></textarea>
-		</form>
+						<label for="mensagem">Algum comentário ou sugestão?</label>
+						<textarea cols="50" rows="10" id="mensagem" required></textarea>
+			</form>
+		</div>
 
 	</main>
